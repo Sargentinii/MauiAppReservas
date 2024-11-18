@@ -20,15 +20,21 @@ namespace MauiAppReservas
         {
             new Local
             {
-                Descricao = "Galpão",
-                ValorDiaria = 2000,
+                Descricao = "Chácara",
+                ValorDiaria = 1000,
                 CapMax = 200
             },
             new Local
             {
-                Descricao = "Salão",
-                ValorDiaria = 1000,
+                Descricao = "Salão Grande",
+                ValorDiaria = 500,
                 CapMax = 100
+            },
+            new Local
+            {
+                Descricao = "Salão Médio",
+                ValorDiaria = 250,
+                CapMax = 50
             },
         };
 

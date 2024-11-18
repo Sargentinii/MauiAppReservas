@@ -17,7 +17,7 @@
 
                 <Entry WidthRequest="200" HeightRequest="30" 
                    Placeholder="Escreva aqui..." 
-                   x:Name="nevento"/>
+                   x:Name="nevento" />
 
             </StackLayout>
 
@@ -53,7 +53,7 @@
                     Title="Selecione o local"
                     ItemDisplayBinding="{Binding Descricao}"/>
 
-            <Button Text="Avançar" Clicked="Button_Clicked" Margin="10"/>
+                <Button Text="Avançar" Clicked="Button_Clicked" Margin="10" />
 
             </VerticalStackLayout>
 

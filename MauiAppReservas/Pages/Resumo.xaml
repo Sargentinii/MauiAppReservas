@@ -28,6 +28,7 @@
                 <Label Text="Data de Término:" FontAttributes="Bold"/>
                 <Label Text="{Binding DataTermino, StringFormat='{0:dd/MM/yyyy}'}" />
 
+                <Button Text="Pagamento"/>
             </VerticalStackLayout>
         </Frame>
     </VerticalStackLayout>
